@@ -1,0 +1,58 @@
+.banner {
+  height: 33vh;
+  color: rgb(230, 230, 230);
+  background: linear-gradient(135deg,
+                rgba(0, 0, 0, 0.8) 0%,
+                rgba(0, 0, 0, 0.3) 50%),
+            url('https://picsum.photos/id/163/2000/1000');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+  margin-top: 0px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0px 0px 80px rgba(241, 241, 241, 1);
+}
+
+#medium-link:hover {
+  transition: 1s;
+  color: black;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Bangers', cursive;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: 'Caveat', cursive;
+  color: rgb(100, 100, 100);
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+
